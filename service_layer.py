@@ -7,7 +7,11 @@ def check_text(text, field):
     if not text.strip():
         raise ValueError(f"{field} не должно быть пустым")
 class PhoneService:
-    PHONE_PATTERN = re.compile(r'(?:\+7|8)[\s\-]*\(?[0-9]{3}\)?[\s\-]*[0-9]{3}[\s\-]*[0-9]{2}[\s\-]*[0-9]{2}')
+    PHONE_PATTERN = re.compile(
+        r'(?<![\w+])(?:\+7|8)[ \t-]*'
+        r'(?:\([0-9]{3}\)|[0-9]{3})[ \t-]*'
+        r'[0-9]{3}[ \t-]*[0-9]{2}[ \t-]*[0-9]{2}(?!\w)'
+    )
     def __init__(self, phones: Repository):
         self.phones = phones
     def normalize(self, phone_text):
