@@ -1,0 +1,3104 @@
+{
+  "1": {
+    "name": "США, Канада и страны NANP",
+    "regions": [
+      "AG",
+      "AI",
+      "AS",
+      "BB",
+      "BM",
+      "BS",
+      "CA",
+      "DM",
+      "DO",
+      "GD",
+      "GU",
+      "JM",
+      "KN",
+      "KY",
+      "LC",
+      "MP",
+      "MS",
+      "PR",
+      "SX",
+      "TC",
+      "TT",
+      "US",
+      "VC",
+      "VG",
+      "VI"
+    ],
+    "lengths": [
+      7,
+      10
+    ],
+    "patterns": [
+      "(?:268|[58]\\d\\d|900)\\d{7}",
+      "(?:264|[58]\\d\\d|900)\\d{7}",
+      "(?:[58]\\d\\d|684|900)\\d{7}",
+      "(?:246|[58]\\d\\d|900)\\d{7}",
+      "(?:441|[58]\\d\\d|900)\\d{7}",
+      "(?:242|[58]\\d\\d|900)\\d{7}",
+      "[2-9]\\d{9}|3\\d{6}",
+      "(?:[58]\\d\\d|767|900)\\d{7}",
+      "(?:[58]\\d\\d|900)\\d{7}",
+      "(?:473|[58]\\d\\d|900)\\d{7}",
+      "(?:[58]\\d\\d|671|900)\\d{7}",
+      "(?:[58]\\d\\d|658|900)\\d{7}",
+      "(?:345|[58]\\d\\d|900)\\d{7}",
+      "(?:[58]\\d\\d|758|900)\\d{7}",
+      "[58]\\d{9}|(?:67|90)0\\d{7}",
+      "(?:[58]\\d\\d|664|900)\\d{7}",
+      "(?:[589]\\d\\d|787)\\d{7}",
+      "7215\\d{6}|(?:[58]\\d\\d|900)\\d{7}",
+      "(?:[58]\\d\\d|649|900)\\d{7}",
+      "(?:[58]\\d\\d|784|900)\\d{7}",
+      "(?:284|[58]\\d\\d|900)\\d{7}",
+      "[58]\\d{9}|(?:34|90)0\\d{7}"
+    ]
+  },
+  "7": {
+    "name": "Россия и Казахстан",
+    "regions": [
+      "KZ",
+      "RU"
+    ],
+    "lengths": [
+      10,
+      14
+    ],
+    "patterns": [
+      "8\\d{13}|[78]\\d{9}",
+      "8\\d{13}|[347-9]\\d{9}"
+    ]
+  },
+  "20": {
+    "name": "Египет",
+    "regions": [
+      "EG"
+    ],
+    "lengths": [
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[189]\\d{8,9}|[24-6]\\d{8}|[135]\\d{7}"
+    ]
+  },
+  "27": {
+    "name": "Suid-Afrika",
+    "regions": [
+      "ZA"
+    ],
+    "lengths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[1-79]\\d{8}|8\\d{4,9}"
+    ]
+  },
+  "30": {
+    "name": "Ελλάδα",
+    "regions": [
+      "GR"
+    ],
+    "lengths": [
+      10,
+      11,
+      12
+    ],
+    "patterns": [
+      "5005000\\d{3}|8\\d{9,11}|(?:[269]\\d|70)\\d{8}"
+    ]
+  },
+  "31": {
+    "name": "Nederland",
+    "regions": [
+      "NL"
+    ],
+    "lengths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[124-7]\\d\\d|3(?:[02-9]\\d|1[0-8]))\\d{6}|8\\d{6,9}|9\\d{6,10}|1\\d{4,5}"
+    ]
+  },
+  "32": {
+    "name": "België",
+    "regions": [
+      "BE"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "4\\d{8}|[1-9]\\d{7}"
+    ]
+  },
+  "33": {
+    "name": "Франция",
+    "regions": [
+      "FR"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[1-9]\\d{8}"
+    ]
+  },
+  "34": {
+    "name": "España",
+    "regions": [
+      "ES"
+    ],
+    "lengths": [
+      9
+    ],
+    "patterns": [
+      "400\\d{6}|(?:51|[6-9]\\d)\\d{7}"
+    ]
+  },
+  "36": {
+    "name": "Magyarország",
+    "regions": [
+      "HU"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "patterns": [
+      "[235-7]\\d{8}|[1-9]\\d{7}"
+    ]
+  },
+  "39": {
+    "name": "Italia, Città del Vaticano",
+    "regions": [
+      "IT",
+      "VA"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "patterns": [
+      "0\\d{5,11}|1\\d{8,10}|3(?:[0-8]\\d{7,10}|9\\d{7,8})|(?:43|55|70)\\d{8}|8\\d{5}(?:\\d{2,4})?",
+      "0\\d{5,10}|3[0-8]\\d{7,10}|55\\d{8}|8\\d{5}(?:\\d{2,4})?|(?:1\\d|39)\\d{7,8}"
+    ]
+  },
+  "40": {
+    "name": "România",
+    "regions": [
+      "RO"
+    ],
+    "lengths": [
+      6,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[2378]\\d|90)\\d{7}|[23]\\d{5}"
+    ]
+  },
+  "41": {
+    "name": "Svizzera",
+    "regions": [
+      "CH"
+    ],
+    "lengths": [
+      9,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "8\\d{11}|[2-9]\\d{8}"
+    ]
+  },
+  "43": {
+    "name": "Österreich",
+    "regions": [
+      "AT"
+    ],
+    "lengths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "1\\d{3,12}|2\\d{6,12}|43(?:(?:0\\d|5[02-9])\\d{3,9}|2\\d{4,5}|[3467]\\d{4}|8\\d{4,6}|9\\d{4,7})|5\\d{4,12}|8\\d{7,12}|9\\d{8,12}|(?:[367]\\d|4[0-24-9])\\d{4,11}"
+    ]
+  },
+  "44": {
+    "name": "Великобритания",
+    "regions": [
+      "GB",
+      "GG",
+      "IM",
+      "JE"
+    ],
+    "lengths": [
+      7,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[1-357-9]\\d{9}|[18]\\d{8}|8\\d{6}",
+      "(?:1481|[357-9]\\d{3})\\d{6}|8\\d{6}(?:\\d{2})?",
+      "1624\\d{6}|(?:[3578]\\d|90)\\d{8}",
+      "1534\\d{6}|(?:[3578]\\d|90)\\d{8}"
+    ]
+  },
+  "45": {
+    "name": "Danmark",
+    "regions": [
+      "DK"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[2-9]\\d{7}"
+    ]
+  },
+  "46": {
+    "name": "Sverige",
+    "regions": [
+      "SE"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[26]\\d\\d|9)\\d{9}|[1-9]\\d{8}|[1-689]\\d{7}|[1-4689]\\d{6}|2\\d{5}"
+    ]
+  },
+  "47": {
+    "name": "Noreg, Svalbard og Jan Mayen",
+    "regions": [
+      "NO",
+      "SJ"
+    ],
+    "lengths": [
+      5,
+      8
+    ],
+    "patterns": [
+      "(?:0|[2-9]\\d{3})\\d{4}",
+      "0\\d{4}|(?:[489]\\d|79)\\d{6}"
+    ]
+  },
+  "48": {
+    "name": "Polska",
+    "regions": [
+      "PL"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "patterns": [
+      "(?:6|8\\d\\d)\\d{7}|[1-9]\\d{6}(?:\\d{2})?|[26]\\d{5}"
+    ]
+  },
+  "49": {
+    "name": "Германия",
+    "regions": [
+      "DE"
+    ],
+    "lengths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[2579]\\d{5,14}|49(?:[34]0|69|8\\d)\\d\\d?|49(?:37|49|60|7[089]|9\\d)\\d{1,3}|49(?:2[024-9]|3[2-689]|7[1-7])\\d{1,8}|(?:1|[368]\\d|4[0-8])\\d{3,13}|49(?:[015]\\d|2[13]|31|[46][1-8])\\d{1,9}"
+    ]
+  },
+  "51": {
+    "name": "Perú",
+    "regions": [
+      "PE"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[14-8]|9\\d)\\d{7}"
+    ]
+  },
+  "52": {
+    "name": "México",
+    "regions": [
+      "MX"
+    ],
+    "lengths": [
+      10
+    ],
+    "patterns": [
+      "[2-9]\\d{9}"
+    ]
+  },
+  "53": {
+    "name": "Cuba",
+    "regions": [
+      "CU"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[2-7]|8\\d\\d)\\d{7}|[2-47]\\d{6}|[34]\\d{5}"
+    ]
+  },
+  "54": {
+    "name": "Argentina",
+    "regions": [
+      "AR"
+    ],
+    "lengths": [
+      10,
+      11
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:11|[89]\\d\\d)\\d{8}|[2368]\\d{9}"
+    ]
+  },
+  "55": {
+    "name": "Brasil",
+    "regions": [
+      "BR"
+    ],
+    "lengths": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[1-467]\\d{9,10}|55[0-46-9]\\d{8}|[34]\\d{7}|55\\d{7,8}|(?:5[0-46-9]|[89]\\d)\\d{7,9}"
+    ]
+  },
+  "56": {
+    "name": "Chile",
+    "regions": [
+      "CL"
+    ],
+    "lengths": [
+      9,
+      10,
+      11
+    ],
+    "patterns": [
+      "12300\\d{6}|6\\d{9,10}|[2-9]\\d{8}"
+    ]
+  },
+  "57": {
+    "name": "Colombia",
+    "regions": [
+      "CO"
+    ],
+    "lengths": [
+      8,
+      10,
+      11
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:46|60\\d\\d)\\d{6}|(?:1\\d|[39])\\d{9}"
+    ]
+  },
+  "58": {
+    "name": "Venezuela",
+    "regions": [
+      "VE"
+    ],
+    "lengths": [
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[68]00\\d{7}|(?:[24]\\d|[59]0)\\d{8}"
+    ]
+  },
+  "60": {
+    "name": "Malaysia",
+    "regions": [
+      "MY"
+    ],
+    "lengths": [
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "1\\d{8,9}|(?:3\\d|[4-9])\\d{7}"
+    ]
+  },
+  "61": {
+    "name": "Australia, Cocos (Keeling) Islands, Christmas Island",
+    "regions": [
+      "AU",
+      "CC",
+      "CX"
+    ],
+    "lengths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "1(?:[0-79]\\d{7}(?:\\d(?:\\d{2})?)?|8[0-24-9]\\d{7})|[2-478]\\d{8}|1\\d{4,7}",
+      "1(?:[0-79]\\d{8}(?:\\d{2})?|8[0-24-9]\\d{7})|[148]\\d{8}|1\\d{5,7}"
+    ]
+  },
+  "62": {
+    "name": "Indonesia",
+    "regions": [
+      "ID"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "00[1-9]\\d{9,14}|(?:[1-36]|8\\d{5})\\d{6}|00\\d{9}|[1-9]\\d{8,10}|[2-9]\\d{7}"
+    ]
+  },
+  "63": {
+    "name": "Philippines",
+    "regions": [
+      "PH"
+    ],
+    "lengths": [
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[2-7]|9\\d)\\d{8}|2\\d{5}|(?:1800|8)\\d{7,9}"
+    ]
+  },
+  "64": {
+    "name": "New Zealand",
+    "regions": [
+      "NZ"
+    ],
+    "lengths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "11\\d{8,12}|[29]\\d{7,9}|(?:[34]\\d|6[0-35-9])\\d{6}|50\\d{5}(?:\\d{2,3})?|7\\d{7,8}|8\\d{4,9}"
+    ]
+  },
+  "65": {
+    "name": "新加坡",
+    "regions": [
+      "SG"
+    ],
+    "lengths": [
+      8,
+      10,
+      11
+    ],
+    "patterns": [
+      "(?:(?:1\\d|8)\\d\\d|7000)\\d{7}|[3689]\\d{7}"
+    ]
+  },
+  "66": {
+    "name": "ไทย",
+    "regions": [
+      "TH"
+    ],
+    "lengths": [
+      8,
+      9,
+      10,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:001800|[2-57]|[689]\\d)\\d{7}|1\\d{7,9}"
+    ]
+  },
+  "81": {
+    "name": "Япония",
+    "regions": [
+      "JP"
+    ],
+    "lengths": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "00[1-9]\\d{6,14}|[25-9]\\d{9}|(?:00|[1-9]\\d\\d)\\d{6}"
+    ]
+  },
+  "82": {
+    "name": "대한민국",
+    "regions": [
+      "KR"
+    ],
+    "lengths": [
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "00[1-9]\\d{8,11}|(?:[12]|5\\d{3})\\d{7}|[13-6]\\d{9}|(?:[1-6]\\d|80)\\d{7}|[3-6]\\d{4,5}|(?:00|7)0\\d{8}"
+    ]
+  },
+  "84": {
+    "name": "Việt Nam",
+    "regions": [
+      "VN"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[12]\\d{9}|[135-9]\\d{8}|[16]\\d{6,7}|7\\d{6}"
+    ]
+  },
+  "86": {
+    "name": "Китай",
+    "regions": [
+      "CN"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:(?:1[03-689]|2\\d)\\d\\d|6)\\d{8}|1\\d{10}|[126]\\d{6}(?:\\d(?:\\d{2})?)?|86\\d{5,6}|(?:[3-579]\\d|8[0-57-9])\\d{5,9}"
+    ]
+  },
+  "90": {
+    "name": "Турция",
+    "regions": [
+      "TR"
+    ],
+    "lengths": [
+      7,
+      10,
+      12,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "4\\d{6}|8\\d{11,12}|(?:[2-58]\\d\\d|900)\\d{7}"
+    ]
+  },
+  "91": {
+    "name": "Индия",
+    "regions": [
+      "IN"
+    ],
+    "lengths": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:000800|[2-9]\\d\\d)\\d{7}|1\\d{7,12}"
+    ]
+  },
+  "92": {
+    "name": "پاکستان",
+    "regions": [
+      "PK"
+    ],
+    "lengths": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "122\\d{6}|[24-8]\\d{10,11}|9(?:[013-9]\\d{8,10}|2(?:[01]\\d\\d|2(?:[06-8]\\d|1[01]))\\d{7})|(?:[2-8]\\d{3}|92(?:[0-7]\\d|8[1-9]))\\d{6}|[24-9]\\d{8}|[89]\\d{7}"
+    ]
+  },
+  "93": {
+    "name": "افغانستان",
+    "regions": [
+      "AF"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[2-7]\\d{8}"
+    ]
+  },
+  "94": {
+    "name": "ශ්‍රී ලංකාව",
+    "regions": [
+      "LK"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[1-9]\\d{8}"
+    ]
+  },
+  "95": {
+    "name": "မြန်မာ",
+    "regions": [
+      "MM"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "1\\d{5,7}|95\\d{6}|(?:[4-7]|9[0-46-9])\\d{6,8}|(?:2|8\\d)\\d{5,8}"
+    ]
+  },
+  "98": {
+    "name": "ایران",
+    "regions": [
+      "IR"
+    ],
+    "lengths": [
+      4,
+      5,
+      6,
+      7,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[1-9]\\d{9}|(?:[1-8]\\d\\d|9)\\d{3,4}"
+    ]
+  },
+  "211": {
+    "name": "South Sudan",
+    "regions": [
+      "SS"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[19]\\d{8}"
+    ]
+  },
+  "212": {
+    "name": "EH, المغرب",
+    "regions": [
+      "EH",
+      "MA"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[5-8]\\d{8}"
+    ]
+  },
+  "213": {
+    "name": "الجزائر",
+    "regions": [
+      "DZ"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[1-4]|[5-79]\\d|80)\\d{7}"
+    ]
+  },
+  "216": {
+    "name": "تونس",
+    "regions": [
+      "TN"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[2-57-9]\\d{7}"
+    ]
+  },
+  "218": {
+    "name": "ليبيا",
+    "regions": [
+      "LY"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[2-9]\\d{8}"
+    ]
+  },
+  "220": {
+    "name": "Gambia",
+    "regions": [
+      "GM"
+    ],
+    "lengths": [
+      7,
+      9
+    ],
+    "patterns": [
+      "[48]\\d{8}|[2-9]\\d{6}"
+    ]
+  },
+  "221": {
+    "name": "Senegaal",
+    "regions": [
+      "SN"
+    ],
+    "lengths": [
+      9
+    ],
+    "patterns": [
+      "(?:[378]\\d|93)\\d{7}"
+    ]
+  },
+  "222": {
+    "name": "موريتانيا",
+    "regions": [
+      "MR"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:[2-4]\\d\\d|800)\\d{5}"
+    ]
+  },
+  "223": {
+    "name": "Mali",
+    "regions": [
+      "ML"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[24-9]\\d{7}"
+    ]
+  },
+  "224": {
+    "name": "Guinée",
+    "regions": [
+      "GN"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "patterns": [
+      "722\\d{6}|(?:3|6\\d)\\d{7}"
+    ]
+  },
+  "225": {
+    "name": "Côte d’Ivoire",
+    "regions": [
+      "CI"
+    ],
+    "lengths": [
+      10
+    ],
+    "patterns": [
+      "[02]\\d{9}"
+    ]
+  },
+  "226": {
+    "name": "Burkina Faso",
+    "regions": [
+      "BF"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[024-7]\\d{7}"
+    ]
+  },
+  "227": {
+    "name": "Niger",
+    "regions": [
+      "NE"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[027-9]\\d{7}"
+    ]
+  },
+  "228": {
+    "name": "Togo",
+    "regions": [
+      "TG"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[279]\\d{7}"
+    ]
+  },
+  "229": {
+    "name": "Bénin",
+    "regions": [
+      "BJ"
+    ],
+    "lengths": [
+      10
+    ],
+    "patterns": [
+      "01\\d{8}"
+    ]
+  },
+  "230": {
+    "name": "Mauritius",
+    "regions": [
+      "MU"
+    ],
+    "lengths": [
+      7,
+      8,
+      10
+    ],
+    "patterns": [
+      "(?:[57]|8\\d\\d)\\d{7}|[2-468]\\d{6}"
+    ]
+  },
+  "231": {
+    "name": "Liberia",
+    "regions": [
+      "LR"
+    ],
+    "lengths": [
+      7,
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[2457]\\d|33|88)\\d{7}|(?:2\\d|[4-6])\\d{6}"
+    ]
+  },
+  "232": {
+    "name": "Sierra Leone",
+    "regions": [
+      "SL"
+    ],
+    "lengths": [
+      8
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[237-9]\\d|66)\\d{6}"
+    ]
+  },
+  "233": {
+    "name": "Ghana",
+    "regions": [
+      "GH"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[235]\\d{8}|800\\d{5,6}"
+    ]
+  },
+  "234": {
+    "name": "Naịjịrịa",
+    "regions": [
+      "NG"
+    ],
+    "lengths": [
+      10,
+      11,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:20|9\\d)\\d{8}|[78]\\d{9,13}"
+    ]
+  },
+  "235": {
+    "name": "Tchad",
+    "regions": [
+      "TD"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:22|[3689]\\d|77)\\d{6}"
+    ]
+  },
+  "236": {
+    "name": "Ködörösêse tî Bêafrîka",
+    "regions": [
+      "CF"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "8776\\d{4}|(?:[27]\\d|61)\\d{6}"
+    ]
+  },
+  "237": {
+    "name": "Cameroun",
+    "regions": [
+      "CM"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "patterns": [
+      "[26]\\d{8}|88\\d{6,7}"
+    ]
+  },
+  "238": {
+    "name": "Cabo Verde",
+    "regions": [
+      "CV"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "(?:[2-59]\\d\\d|800)\\d{4}"
+    ]
+  },
+  "239": {
+    "name": "São Tomé e Príncipe",
+    "regions": [
+      "ST"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "(?:22|9\\d)\\d{5}"
+    ]
+  },
+  "240": {
+    "name": "Guinea Ecuatorial",
+    "regions": [
+      "GQ"
+    ],
+    "lengths": [
+      9
+    ],
+    "patterns": [
+      "222\\d{6}|(?:3\\d|55|[89]0)\\d{7}"
+    ]
+  },
+  "241": {
+    "name": "Gabon",
+    "regions": [
+      "GA"
+    ],
+    "lengths": [
+      7,
+      8
+    ],
+    "patterns": [
+      "(?:[067]\\d|11)\\d{6}|[2-7]\\d{6}"
+    ]
+  },
+  "242": {
+    "name": "Congo",
+    "regions": [
+      "CG"
+    ],
+    "lengths": [
+      9
+    ],
+    "patterns": [
+      "222\\d{6}|(?:0\\d|80)\\d{7}"
+    ]
+  },
+  "243": {
+    "name": "Congo (République démocratique du)",
+    "regions": [
+      "CD"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:(?:[189]|5\\d)\\d|2)\\d{7}|[1-68]\\d{6}"
+    ]
+  },
+  "244": {
+    "name": "Angola",
+    "regions": [
+      "AO"
+    ],
+    "lengths": [
+      9
+    ],
+    "patterns": [
+      "[29]\\d{8}"
+    ]
+  },
+  "245": {
+    "name": "Guiné-Bissau",
+    "regions": [
+      "GW"
+    ],
+    "lengths": [
+      7,
+      9
+    ],
+    "patterns": [
+      "[49]\\d{8}|4\\d{6}"
+    ]
+  },
+  "246": {
+    "name": "British Indian Ocean Territory",
+    "regions": [
+      "IO"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "3\\d{6}"
+    ]
+  },
+  "247": {
+    "name": "AC",
+    "regions": [
+      "AC"
+    ],
+    "lengths": [
+      5,
+      6
+    ],
+    "patterns": [
+      "(?:[01589]\\d|[2-467])\\d{4}"
+    ]
+  },
+  "248": {
+    "name": "Seychelles",
+    "regions": [
+      "SC"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "(?:[2489]\\d|64)\\d{5}"
+    ]
+  },
+  "249": {
+    "name": "السودان",
+    "regions": [
+      "SD"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[19]\\d{8}"
+    ]
+  },
+  "250": {
+    "name": "U Rwanda",
+    "regions": [
+      "RW"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:06|[27]\\d\\d|[89]00)\\d{6}"
+    ]
+  },
+  "251": {
+    "name": "ኢትዮጵያ",
+    "regions": [
+      "ET"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:11|[2-57-9]\\d)\\d{7}"
+    ]
+  },
+  "252": {
+    "name": "Soomaaliya",
+    "regions": [
+      "SO"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[346-9]\\d{8}|[12679]\\d{7}|[1-5]\\d{6}|[1348]\\d{5}"
+    ]
+  },
+  "253": {
+    "name": "Djibouti",
+    "regions": [
+      "DJ"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:2\\d|77)\\d{6}"
+    ]
+  },
+  "254": {
+    "name": "Kenya",
+    "regions": [
+      "KE"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[17]\\d\\d|900)\\d{6}|(?:2|80)0\\d{6,7}|[4-6]\\d{6,8}"
+    ]
+  },
+  "255": {
+    "name": "Tanzania",
+    "regions": [
+      "TZ"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[25-8]\\d|41|90)\\d{7}"
+    ]
+  },
+  "256": {
+    "name": "Uganda",
+    "regions": [
+      "UG"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "800\\d{6}|(?:[29]0|[347]\\d)\\d{7}"
+    ]
+  },
+  "257": {
+    "name": "Uburundi",
+    "regions": [
+      "BI"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:[267]\\d|31)\\d{6}"
+    ]
+  },
+  "258": {
+    "name": "Moçambique",
+    "regions": [
+      "MZ"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "patterns": [
+      "(?:2|8\\d)\\d{7}"
+    ]
+  },
+  "260": {
+    "name": "Zambia",
+    "regions": [
+      "ZM"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "800\\d{6}|(?:21|[579]\\d|63)\\d{7}"
+    ]
+  },
+  "261": {
+    "name": "Madagasikara",
+    "regions": [
+      "MG"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[23]\\d{8}"
+    ]
+  },
+  "262": {
+    "name": "La Réunion, Mayotte",
+    "regions": [
+      "RE",
+      "YT"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "709\\d{6}|(?:26|[689]\\d)\\d{7}",
+      "(?:639\\d|7093)\\d{5}|(?:26|80|9\\d)\\d{7}"
+    ]
+  },
+  "263": {
+    "name": "Zimbabwe",
+    "regions": [
+      "ZW"
+    ],
+    "lengths": [
+      7,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "8\\d{6}(?:\\d{3})?|[235-8]\\d{8}"
+    ]
+  },
+  "264": {
+    "name": "Namibia",
+    "regions": [
+      "NA"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[68]\\d{7,8}"
+    ]
+  },
+  "265": {
+    "name": "Malawi",
+    "regions": [
+      "MW"
+    ],
+    "lengths": [
+      7,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[1289]\\d|31|77)\\d{7}|1\\d{6}"
+    ]
+  },
+  "266": {
+    "name": "Lesotho",
+    "regions": [
+      "LS"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:[256]\\d\\d|800)\\d{5}"
+    ]
+  },
+  "267": {
+    "name": "Botswana",
+    "regions": [
+      "BW"
+    ],
+    "lengths": [
+      7,
+      8,
+      10
+    ],
+    "patterns": [
+      "90\\d{5}|(?:0800|[2-6]|(?:7|800)\\d)\\d{6}"
+    ]
+  },
+  "268": {
+    "name": "eSwatini",
+    "regions": [
+      "SZ"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "patterns": [
+      "0800\\d{4}|(?:[237]\\d|900)\\d{6}"
+    ]
+  },
+  "269": {
+    "name": "جزر القمر",
+    "regions": [
+      "KM"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "[3478]\\d{6}"
+    ]
+  },
+  "290": {
+    "name": "St Helena, TA",
+    "regions": [
+      "SH",
+      "TA"
+    ],
+    "lengths": [
+      4,
+      5
+    ],
+    "patterns": [
+      "(?:[2569]\\d|8)\\d{3}",
+      "8\\d{3}"
+    ]
+  },
+  "291": {
+    "name": "Eritrea",
+    "regions": [
+      "ER"
+    ],
+    "lengths": [
+      7
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[178]\\d{6}"
+    ]
+  },
+  "297": {
+    "name": "Aruba",
+    "regions": [
+      "AW"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "(?:[25-79]\\d\\d|800)\\d{4}"
+    ]
+  },
+  "298": {
+    "name": "Føroyar",
+    "regions": [
+      "FO"
+    ],
+    "lengths": [
+      6
+    ],
+    "patterns": [
+      "[2-9]\\d{5}"
+    ]
+  },
+  "299": {
+    "name": "Kalaallit Nunaat",
+    "regions": [
+      "GL"
+    ],
+    "lengths": [
+      6
+    ],
+    "patterns": [
+      "(?:19|[2-689]\\d|70)\\d{4}"
+    ]
+  },
+  "350": {
+    "name": "Gibraltar",
+    "regions": [
+      "GI"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:[25]\\d|60)\\d{6}"
+    ]
+  },
+  "351": {
+    "name": "Portugal",
+    "regions": [
+      "PT"
+    ],
+    "lengths": [
+      9
+    ],
+    "patterns": [
+      "1693\\d{5}|(?:[26-9]\\d|30)\\d{7}"
+    ]
+  },
+  "352": {
+    "name": "Lëtzebuerg",
+    "regions": [
+      "LU"
+    ],
+    "lengths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "patterns": [
+      "35[013-9]\\d{4,8}|6\\d{8}|35\\d{2,4}|(?:[2457-9]\\d|3[0-46-9])\\d{2,9}"
+    ]
+  },
+  "353": {
+    "name": "Ireland",
+    "regions": [
+      "IE"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:1\\d|[2569])\\d{6,8}|4\\d{6,9}|7\\d{8}|8\\d{8,9}"
+    ]
+  },
+  "354": {
+    "name": "Ísland",
+    "regions": [
+      "IS"
+    ],
+    "lengths": [
+      7,
+      9
+    ],
+    "patterns": [
+      "(?:38\\d|[4-9])\\d{6}"
+    ]
+  },
+  "355": {
+    "name": "Shqipëri",
+    "regions": [
+      "AL"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:700\\d\\d|900)\\d{3}|8\\d{5,7}|(?:[2-5]|6\\d)\\d{7}"
+    ]
+  },
+  "356": {
+    "name": "Malta",
+    "regions": [
+      "MT"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "3550\\d{4}|(?:[2579]\\d\\d|800)\\d{5}"
+    ]
+  },
+  "357": {
+    "name": "Κύπρος",
+    "regions": [
+      "CY"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:[279]\\d|[58]0)\\d{6}"
+    ]
+  },
+  "358": {
+    "name": "Åland, Suomi",
+    "regions": [
+      "AX",
+      "FI"
+    ],
+    "lengths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "2\\d{4,9}|35\\d{4,5}|(?:60\\d\\d|800)\\d{4,6}|7\\d{5,11}|(?:[14]\\d|3[0-46-9]|50)\\d{4,8}",
+      "[1-35689]\\d{4}|7\\d{10,11}|(?:[124-7]\\d|3[0-46-9])\\d{8}|[1-9]\\d{5,8}"
+    ]
+  },
+  "359": {
+    "name": "България",
+    "regions": [
+      "BG"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "00800\\d{7}|[2-7]\\d{6,7}|[89]\\d{6,8}|2\\d{5}"
+    ]
+  },
+  "370": {
+    "name": "Lietuva",
+    "regions": [
+      "LT"
+    ],
+    "lengths": [
+      8
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[3469]\\d|52|[78]0)\\d{6}"
+    ]
+  },
+  "371": {
+    "name": "Latvija",
+    "regions": [
+      "LV"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:[268]\\d|78|90)\\d{6}"
+    ]
+  },
+  "372": {
+    "name": "Eesti",
+    "regions": [
+      "EE"
+    ],
+    "lengths": [
+      7,
+      8,
+      10
+    ],
+    "patterns": [
+      "8\\d{9}|[4578]\\d{7}|(?:[3-8]\\d|90)\\d{5}"
+    ]
+  },
+  "373": {
+    "name": "Republica Moldova",
+    "regions": [
+      "MD"
+    ],
+    "lengths": [
+      8
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[235-7]\\d|[89]0)\\d{6}"
+    ]
+  },
+  "374": {
+    "name": "Հայաստան",
+    "regions": [
+      "AM"
+    ],
+    "lengths": [
+      8
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[1-489]\\d|55|60|77)\\d{6}"
+    ]
+  },
+  "375": {
+    "name": "Беларусь",
+    "regions": [
+      "BY"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "patterns": [
+      "(?:[12]\\d|33|44|902)\\d{7}|8(?:0[0-79]\\d{5,7}|[1-7]\\d{9})|8(?:1[0-489]|[5-79]\\d)\\d{7}|8[1-79]\\d{6,7}|8[0-79]\\d{5}|8\\d{5}"
+    ]
+  },
+  "376": {
+    "name": "Andorra",
+    "regions": [
+      "AD"
+    ],
+    "lengths": [
+      6,
+      8,
+      9
+    ],
+    "patterns": [
+      "(?:1|6\\d)\\d{7}|[135-9]\\d{5}"
+    ]
+  },
+  "377": {
+    "name": "Monaco",
+    "regions": [
+      "MC"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[3489]|[67]\\d)\\d{7}"
+    ]
+  },
+  "378": {
+    "name": "San Marino",
+    "regions": [
+      "SM"
+    ],
+    "lengths": [
+      8,
+      10
+    ],
+    "patterns": [
+      "(?:0549|[5-7]\\d)\\d{6}"
+    ]
+  },
+  "380": {
+    "name": "Украина",
+    "regions": [
+      "UA"
+    ],
+    "lengths": [
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[89]\\d{9}|[3-9]\\d{8}"
+    ]
+  },
+  "381": {
+    "name": "Srbija",
+    "regions": [
+      "RS"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "38[02-9]\\d{6,9}|6\\d{7,9}|90\\d{4,8}|38\\d{5,6}|(?:7\\d\\d|800)\\d{3,9}|(?:[12]\\d|3[0-79])\\d{5,10}"
+    ]
+  },
+  "382": {
+    "name": "Crna Gora",
+    "regions": [
+      "ME"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:20|[3-79]\\d)\\d{6}|80\\d{6,7}"
+    ]
+  },
+  "383": {
+    "name": "Kosovë",
+    "regions": [
+      "XK"
+    ],
+    "lengths": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "2\\d{7,8}|3\\d{7,11}|(?:4\\d\\d|[89]00)\\d{5}"
+    ]
+  },
+  "385": {
+    "name": "Hrvatska",
+    "regions": [
+      "HR"
+    ],
+    "lengths": [
+      7,
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[2-69]\\d{8}|80\\d{5,7}|[1-79]\\d{7}|6\\d{6}"
+    ]
+  },
+  "386": {
+    "name": "Slovenija",
+    "regions": [
+      "SI"
+    ],
+    "lengths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[1-7]\\d{7}|8\\d{4,7}|90\\d{4,6}"
+    ]
+  },
+  "387": {
+    "name": "Bosna i Hercegovina",
+    "regions": [
+      "BA"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "6\\d{8}|(?:[35689]\\d|49|70)\\d{6}"
+    ]
+  },
+  "389": {
+    "name": "Северна Македонија",
+    "regions": [
+      "MK"
+    ],
+    "lengths": [
+      8
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[2-578]\\d{7}"
+    ]
+  },
+  "420": {
+    "name": "Česko",
+    "regions": [
+      "CZ"
+    ],
+    "lengths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "patterns": [
+      "(?:[2-578]\\d|60)\\d{7}|9\\d{8,11}"
+    ]
+  },
+  "421": {
+    "name": "Slovensko",
+    "regions": [
+      "SK"
+    ],
+    "lengths": [
+      6,
+      7,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[2-689]\\d{8}|[2-59]\\d{6}|[2-5]\\d{5}"
+    ]
+  },
+  "423": {
+    "name": "Liechtenstein",
+    "regions": [
+      "LI"
+    ],
+    "lengths": [
+      7,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[68]\\d{8}|(?:[2378]\\d|90)\\d{5}"
+    ]
+  },
+  "500": {
+    "name": "Falkland Islands",
+    "regions": [
+      "FK"
+    ],
+    "lengths": [
+      5
+    ],
+    "patterns": [
+      "[2-7]\\d{4}"
+    ]
+  },
+  "501": {
+    "name": "Belize",
+    "regions": [
+      "BZ"
+    ],
+    "lengths": [
+      7,
+      11
+    ],
+    "patterns": [
+      "(?:0800\\d|[2-8])\\d{6}"
+    ]
+  },
+  "502": {
+    "name": "Guatemala",
+    "regions": [
+      "GT"
+    ],
+    "lengths": [
+      8,
+      11
+    ],
+    "patterns": [
+      "80\\d{6}|(?:1\\d{3}|[2-7])\\d{7}"
+    ]
+  },
+  "503": {
+    "name": "El Salvador",
+    "regions": [
+      "SV"
+    ],
+    "lengths": [
+      7,
+      8,
+      11
+    ],
+    "patterns": [
+      "[25-7]\\d{7}|(?:80\\d|900)\\d{4}(?:\\d{4})?"
+    ]
+  },
+  "504": {
+    "name": "Honduras",
+    "regions": [
+      "HN"
+    ],
+    "lengths": [
+      8,
+      11
+    ],
+    "patterns": [
+      "8\\d{10}|[237-9]\\d{7}"
+    ]
+  },
+  "505": {
+    "name": "Nicaragua",
+    "regions": [
+      "NI"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:1800|[25-8]\\d{3})\\d{4}"
+    ]
+  },
+  "506": {
+    "name": "Costa Rica",
+    "regions": [
+      "CR"
+    ],
+    "lengths": [
+      8,
+      10
+    ],
+    "patterns": [
+      "(?:8\\d|90)\\d{8}|(?:[24-8]\\d{3}|3005)\\d{4}"
+    ]
+  },
+  "507": {
+    "name": "Panamá",
+    "regions": [
+      "PA"
+    ],
+    "lengths": [
+      7,
+      8,
+      10,
+      11
+    ],
+    "patterns": [
+      "(?:00800|8\\d{3})\\d{6}|[68]\\d{7}|[1-57-9]\\d{6}"
+    ]
+  },
+  "508": {
+    "name": "Saint-Pierre-et-Miquelon",
+    "regions": [
+      "PM"
+    ],
+    "lengths": [
+      6,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[78]\\d{8}|[2-9]\\d{5}"
+    ]
+  },
+  "509": {
+    "name": "Haïti",
+    "regions": [
+      "HT"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[2-589]\\d{7}"
+    ]
+  },
+  "590": {
+    "name": "Saint-Barthélemy, Guadeloupe, Saint-Martin",
+    "regions": [
+      "BL",
+      "GP",
+      "MF"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "7090\\d{5}|(?:[56]9|[89]\\d)\\d{7}"
+    ]
+  },
+  "591": {
+    "name": "Bolivia",
+    "regions": [
+      "BO"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[2-7]\\d\\d|8001)\\d{5}"
+    ]
+  },
+  "592": {
+    "name": "Guyana",
+    "regions": [
+      "GY"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "(?:[2-8]\\d{3}|9008)\\d{3}"
+    ]
+  },
+  "593": {
+    "name": "Ecuador",
+    "regions": [
+      "EC"
+    ],
+    "lengths": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "1\\d{9,10}|(?:[2-7]|9\\d)\\d{7}"
+    ]
+  },
+  "594": {
+    "name": "Guyane française",
+    "regions": [
+      "GF"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:694\\d|7093)\\d{5}|(?:59|[89]\\d)\\d{7}"
+    ]
+  },
+  "595": {
+    "name": "Paraguay",
+    "regions": [
+      "PY"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[36-8]\\d{5,8}|4\\d{6,8}|59\\d{6}|9\\d{5,10}|(?:2\\d|5[0-8])\\d{6,7}"
+    ]
+  },
+  "596": {
+    "name": "Martinique",
+    "regions": [
+      "MQ"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "7091\\d{5}|(?:[56]9|[89]\\d)\\d{7}"
+    ]
+  },
+  "597": {
+    "name": "Suriname",
+    "regions": [
+      "SR"
+    ],
+    "lengths": [
+      6,
+      7
+    ],
+    "patterns": [
+      "(?:[2-5]|[6-9]\\d)\\d{5}"
+    ]
+  },
+  "598": {
+    "name": "Uruguay",
+    "regions": [
+      "UY"
+    ],
+    "lengths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "0004\\d{2,9}|[1249]\\d{7}|2\\d{3,4}|(?:[49]\\d|80)\\d{5}"
+    ]
+  },
+  "599": {
+    "name": "Bonaire, Sint Eustatius en Saba, Curaçao",
+    "regions": [
+      "BQ",
+      "CW"
+    ],
+    "lengths": [
+      7,
+      8
+    ],
+    "patterns": [
+      "(?:[34]1|7\\d)\\d{5}",
+      "(?:[34]1|60|(?:7|9\\d)\\d)\\d{5}"
+    ]
+  },
+  "670": {
+    "name": "Timor-Leste",
+    "regions": [
+      "TL"
+    ],
+    "lengths": [
+      7,
+      8
+    ],
+    "patterns": [
+      "7\\d{7}|(?:[2-47]\\d|[89]0)\\d{5}"
+    ]
+  },
+  "672": {
+    "name": "Norfolk Island",
+    "regions": [
+      "NF"
+    ],
+    "lengths": [
+      6
+    ],
+    "patterns": [
+      "[13]\\d{5}"
+    ]
+  },
+  "673": {
+    "name": "Brunei",
+    "regions": [
+      "BN"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "[2-578]\\d{6}"
+    ]
+  },
+  "674": {
+    "name": "Nauru",
+    "regions": [
+      "NR"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "(?:222|444|(?:55|8\\d)\\d|666|777|999)\\d{4}"
+    ]
+  },
+  "675": {
+    "name": "Papua New Guinea",
+    "regions": [
+      "PG"
+    ],
+    "lengths": [
+      7,
+      8
+    ],
+    "patterns": [
+      "(?:180|[78]\\d{3})\\d{4}|(?:[2-589]\\d|64)\\d{5}"
+    ]
+  },
+  "676": {
+    "name": "Tonga",
+    "regions": [
+      "TO"
+    ],
+    "lengths": [
+      5,
+      7
+    ],
+    "patterns": [
+      "(?:0800|(?:[5-8]\\d\\d|999)\\d)\\d{3}|[2-8]\\d{4}"
+    ]
+  },
+  "677": {
+    "name": "Solomon Islands",
+    "regions": [
+      "SB"
+    ],
+    "lengths": [
+      5,
+      7
+    ],
+    "patterns": [
+      "[6-9]\\d{6}|[1-6]\\d{4}"
+    ]
+  },
+  "678": {
+    "name": "Vanuatu",
+    "regions": [
+      "VU"
+    ],
+    "lengths": [
+      5,
+      7
+    ],
+    "patterns": [
+      "[57-9]\\d{6}|(?:[238]\\d|48)\\d{3}"
+    ]
+  },
+  "679": {
+    "name": "Fiji",
+    "regions": [
+      "FJ"
+    ],
+    "lengths": [
+      7,
+      11
+    ],
+    "patterns": [
+      "45\\d{5}|(?:0800\\d|[235-9])\\d{6}"
+    ]
+  },
+  "680": {
+    "name": "Palau",
+    "regions": [
+      "PW"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "(?:[24-8]\\d\\d|345|900)\\d{4}"
+    ]
+  },
+  "681": {
+    "name": "Wallis-et-Futuna",
+    "regions": [
+      "WF"
+    ],
+    "lengths": [
+      6,
+      9
+    ],
+    "patterns": [
+      "(?:40|72|8\\d{4})\\d{4}|[89]\\d{5}"
+    ]
+  },
+  "682": {
+    "name": "Cook Islands",
+    "regions": [
+      "CK"
+    ],
+    "lengths": [
+      5
+    ],
+    "patterns": [
+      "[2-578]\\d{4}"
+    ]
+  },
+  "683": {
+    "name": "Niue",
+    "regions": [
+      "NU"
+    ],
+    "lengths": [
+      4,
+      7
+    ],
+    "patterns": [
+      "(?:[4-7]|888\\d)\\d{3}"
+    ]
+  },
+  "685": {
+    "name": "Samoa",
+    "regions": [
+      "WS"
+    ],
+    "lengths": [
+      5,
+      6,
+      7,
+      10
+    ],
+    "patterns": [
+      "(?:[2-6]|8\\d{5})\\d{4}|[78]\\d{6}|[68]\\d{5}"
+    ]
+  },
+  "686": {
+    "name": "Kiribati",
+    "regions": [
+      "KI"
+    ],
+    "lengths": [
+      5,
+      8
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[37]\\d|6[0-79])\\d{6}|(?:[2-48]\\d|50)\\d{3}"
+    ]
+  },
+  "687": {
+    "name": "Nouvelle-Calédonie",
+    "regions": [
+      "NC"
+    ],
+    "lengths": [
+      6
+    ],
+    "patterns": [
+      "(?:050|[2-57-9]\\d\\d)\\d{3}"
+    ]
+  },
+  "688": {
+    "name": "Tuvalu",
+    "regions": [
+      "TV"
+    ],
+    "lengths": [
+      5,
+      6,
+      7
+    ],
+    "patterns": [
+      "(?:2|7\\d\\d|90)\\d{4}"
+    ]
+  },
+  "689": {
+    "name": "Polynésie française",
+    "regions": [
+      "PF"
+    ],
+    "lengths": [
+      6,
+      8,
+      9
+    ],
+    "patterns": [
+      "4\\d{5}(?:\\d{2})?|8\\d{7,8}"
+    ]
+  },
+  "690": {
+    "name": "Tokelau",
+    "regions": [
+      "TK"
+    ],
+    "lengths": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "patterns": [
+      "[2-47]\\d{3,6}"
+    ]
+  },
+  "691": {
+    "name": "Micronesia",
+    "regions": [
+      "FM"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "(?:[39]\\d\\d|820)\\d{4}"
+    ]
+  },
+  "692": {
+    "name": "Marshall Islands",
+    "regions": [
+      "MH"
+    ],
+    "lengths": [
+      7
+    ],
+    "patterns": [
+      "329\\d{4}|(?:[256]\\d|45)\\d{5}"
+    ]
+  },
+  "800": {
+    "name": "world",
+    "regions": [
+      "001"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "(?:00|[1-9]\\d)\\d{6}"
+    ]
+  },
+  "808": {
+    "name": "world",
+    "regions": [
+      "001"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[1-9]\\d{7}"
+    ]
+  },
+  "850": {
+    "name": "조선민주주의인민공화국",
+    "regions": [
+      "KP"
+    ],
+    "lengths": [
+      8,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "85\\d{6}|(?:19\\d|[2-7])\\d{7}"
+    ]
+  },
+  "852": {
+    "name": "香港特別行政區",
+    "regions": [
+      "HK"
+    ],
+    "lengths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "patterns": [
+      "8[0-46-9]\\d{6,7}|9\\d{4,7}|(?:[2-7]|9\\d{3})\\d{7}"
+    ]
+  },
+  "853": {
+    "name": "澳門特別行政區",
+    "regions": [
+      "MO"
+    ],
+    "lengths": [
+      7,
+      8
+    ],
+    "patterns": [
+      "0800\\d{3}|(?:28|[68]\\d)\\d{6}"
+    ]
+  },
+  "855": {
+    "name": "កម្ពុជា",
+    "regions": [
+      "KH"
+    ],
+    "lengths": [
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "1\\d{9}|[1-9]\\d{7,8}"
+    ]
+  },
+  "856": {
+    "name": "ລາວ",
+    "regions": [
+      "LA"
+    ],
+    "lengths": [
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:2\\d|3)\\d{8}|(?:[235-8]\\d|41)\\d{6}"
+    ]
+  },
+  "870": {
+    "name": "world",
+    "regions": [
+      "001"
+    ],
+    "lengths": [
+      9,
+      12
+    ],
+    "patterns": [
+      "7\\d{11}|[235-7]\\d{8}"
+    ]
+  },
+  "878": {
+    "name": "world",
+    "regions": [
+      "001"
+    ],
+    "lengths": [
+      12
+    ],
+    "patterns": [
+      "10\\d{10}"
+    ]
+  },
+  "880": {
+    "name": "বাংলাদেশ",
+    "regions": [
+      "BD"
+    ],
+    "lengths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[1-469]\\d{9}|8[0-79]\\d{7,8}|[2-79]\\d{8}|[2-9]\\d{7}|[3-9]\\d{6}|[57-9]\\d{5}"
+    ]
+  },
+  "881": {
+    "name": "world",
+    "regions": [
+      "001"
+    ],
+    "lengths": [
+      9,
+      10
+    ],
+    "patterns": [
+      "6\\d{9}|[0-36-9]\\d{8}"
+    ]
+  },
+  "882": {
+    "name": "world",
+    "regions": [
+      "001"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "patterns": [
+      "[13]\\d{6}(?:\\d{2,5})?|[19]\\d{7}|(?:[25]\\d\\d|4)\\d{7}(?:\\d{2})?"
+    ]
+  },
+  "883": {
+    "name": "world",
+    "regions": [
+      "001"
+    ],
+    "lengths": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "patterns": [
+      "(?:[1-4]\\d|51)\\d{6,10}"
+    ]
+  },
+  "886": {
+    "name": "台灣",
+    "regions": [
+      "TW"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[2-689]\\d{8}|7\\d{9,10}|[2-8]\\d{7}|2\\d{6}"
+    ]
+  },
+  "888": {
+    "name": "world",
+    "regions": [
+      "001"
+    ],
+    "lengths": [
+      11
+    ],
+    "patterns": [
+      "\\d{11}"
+    ]
+  },
+  "960": {
+    "name": "Maldives",
+    "regions": [
+      "MV"
+    ],
+    "lengths": [
+      7,
+      10
+    ],
+    "patterns": [
+      "(?:800|9[0-57-9]\\d)\\d{7}|[34679]\\d{6}"
+    ]
+  },
+  "961": {
+    "name": "لبنان",
+    "regions": [
+      "LB"
+    ],
+    "lengths": [
+      7,
+      8
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[27-9]\\d{7}|[13-9]\\d{6}"
+    ]
+  },
+  "962": {
+    "name": "الأردن",
+    "regions": [
+      "JO"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:(?:[2689]|7\\d)\\d|32|427|53)\\d{6}"
+    ]
+  },
+  "963": {
+    "name": "سوريا",
+    "regions": [
+      "SY"
+    ],
+    "lengths": [
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[1-359]\\d{8}|[1-5]\\d{7}"
+    ]
+  },
+  "964": {
+    "name": "العراق",
+    "regions": [
+      "IQ"
+    ],
+    "lengths": [
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:1|7\\d\\d)\\d{7}|[2-6]\\d{7,8}"
+    ]
+  },
+  "965": {
+    "name": "الكويت",
+    "regions": [
+      "KW"
+    ],
+    "lengths": [
+      7,
+      8
+    ],
+    "patterns": [
+      "18\\d{5}|(?:[2569]\\d|41)\\d{6}"
+    ]
+  },
+  "966": {
+    "name": "المملكة العربية السعودية",
+    "regions": [
+      "SA"
+    ],
+    "lengths": [
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[15]\\d|800|92)\\d{7}"
+    ]
+  },
+  "967": {
+    "name": "اليمن",
+    "regions": [
+      "YE"
+    ],
+    "lengths": [
+      7,
+      8,
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:1|7\\d)\\d{7}|[1-7]\\d{6}"
+    ]
+  },
+  "968": {
+    "name": "عُمان",
+    "regions": [
+      "OM"
+    ],
+    "lengths": [
+      7,
+      8,
+      9
+    ],
+    "patterns": [
+      "(?:1505|[279]\\d{3}|500)\\d{4}|800\\d{5,6}"
+    ]
+  },
+  "970": {
+    "name": "السلطة الفلسطينية",
+    "regions": [
+      "PS"
+    ],
+    "lengths": [
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[2489]2\\d{6}|(?:1\\d|5)\\d{8}"
+    ]
+  },
+  "971": {
+    "name": "الإمارات العربية المتحدة",
+    "regions": [
+      "AE"
+    ],
+    "lengths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[4-7]\\d|9[0-689])\\d{7}|800\\d{2,9}|[2-4679]\\d{7}"
+    ]
+  },
+  "972": {
+    "name": "ישראל",
+    "regions": [
+      "IL"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "1\\d{6}(?:\\d{3,5})?|[57]\\d{8}|[1-489]\\d{7}"
+    ]
+  },
+  "973": {
+    "name": "البحرين",
+    "regions": [
+      "BH"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[136-9]\\d{7}"
+    ]
+  },
+  "974": {
+    "name": "قطر",
+    "regions": [
+      "QA"
+    ],
+    "lengths": [
+      7,
+      8,
+      9,
+      11
+    ],
+    "patterns": [
+      "800\\d{4}|(?:2|800)\\d{6}|(?:0080|[3-7])\\d{7}"
+    ]
+  },
+  "975": {
+    "name": "འབྲུག",
+    "regions": [
+      "BT"
+    ],
+    "lengths": [
+      7,
+      8
+    ],
+    "patterns": [
+      "[178]\\d{7}|[2-8]\\d{6}"
+    ]
+  },
+  "976": {
+    "name": "Монгол",
+    "regions": [
+      "MN"
+    ],
+    "lengths": [
+      8,
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "[12]\\d{7,9}|[5-9]\\d{7}"
+    ]
+  },
+  "977": {
+    "name": "नेपाल",
+    "regions": [
+      "NP"
+    ],
+    "lengths": [
+      8,
+      10,
+      11
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:1\\d|9)\\d{9}|[1-9]\\d{7}"
+    ]
+  },
+  "979": {
+    "name": "world",
+    "regions": [
+      "001"
+    ],
+    "lengths": [
+      9
+    ],
+    "patterns": [
+      "[1359]\\d{8}"
+    ]
+  },
+  "992": {
+    "name": "Тоҷикистон",
+    "regions": [
+      "TJ"
+    ],
+    "lengths": [
+      9
+    ],
+    "patterns": [
+      "(?:[0-57-9]\\d|66)\\d{7}"
+    ]
+  },
+  "993": {
+    "name": "Türkmenistan",
+    "regions": [
+      "TM"
+    ],
+    "lengths": [
+      8
+    ],
+    "patterns": [
+      "[1-7]\\d{7}"
+    ]
+  },
+  "994": {
+    "name": "Азәрбајҹан",
+    "regions": [
+      "AZ"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "365\\d{6}|(?:[124579]\\d|60|88)\\d{7}"
+    ]
+  },
+  "995": {
+    "name": "საქართველო",
+    "regions": [
+      "GE"
+    ],
+    "lengths": [
+      9
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "(?:[3-57]\\d\\d|800)\\d{6}"
+    ]
+  },
+  "996": {
+    "name": "Кыргызстан",
+    "regions": [
+      "KG"
+    ],
+    "lengths": [
+      9,
+      10
+    ],
+    "optional_trunk_prefix": "0",
+    "patterns": [
+      "8\\d{9}|[235-9]\\d{8}"
+    ]
+  },
+  "998": {
+    "name": "Ўзбекистон",
+    "regions": [
+      "UZ"
+    ],
+    "lengths": [
+      9
+    ],
+    "patterns": [
+      "(?:20|33|[5-9]\\d)\\d{7}"
+    ]
+  }
+}

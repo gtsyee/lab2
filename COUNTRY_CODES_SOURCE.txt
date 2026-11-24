@@ -1,0 +1,7 @@
+Copyright (C) 2009 The Libphonenumber Authors
+Source: https://github.com/google/libphonenumber/blob/master/resources/PhoneNumberMetadata.xml
+License: Apache License 2.0 (COUNTRY_CODES_LICENSE.txt).
+The original metadata was transformed into a JSON table of calling codes,
+possible national lengths, general national patterns and optional trunk prefixes.
+Lengths above the E.164 limit of 15 total digits are excluded.
+This is not a complete phone-number validity or active-subscriber check.
